@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\CervezaMin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4639104F-A770-4965-BE0A-F77BF54329D0}|CervezaMin_API\\CervezaMin_API.csproj|d:\\source\\cervezamin\\cervezamin_api\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4639104F-A770-4965-BE0A-F77BF54329D0}|CervezaMin_API\\CervezaMin_API.csproj|solutionrelative:cervezamin_api\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4639104F-A770-4965-BE0A-F77BF54329D0}|CervezaMin_API\\CervezaMin_API.csproj|d:\\source\\cervezamin\\cervezamin_api\\models\\dtos\\marcacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4639104F-A770-4965-BE0A-F77BF54329D0}|CervezaMin_API\\CervezaMin_API.csproj|solutionrelative:cervezamin_api\\models\\dtos\\marcacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4639104F-A770-4965-BE0A-F77BF54329D0}|CervezaMin_API\\CervezaMin_API.csproj|d:\\source\\cervezamin\\cervezamin_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4639104F-A770-4965-BE0A-F77BF54329D0}|CervezaMin_API\\CervezaMin_API.csproj|solutionrelative:cervezamin_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MarcaController.cs",
+              "DocumentMoniker": "D:\\source\\CervezaMin\\CervezaMin_API\\Controllers\\MarcaController.cs",
+              "RelativeDocumentMoniker": "CervezaMin_API\\Controllers\\MarcaController.cs",
+              "ToolTip": "D:\\source\\CervezaMin\\CervezaMin_API\\Controllers\\MarcaController.cs",
+              "RelativeToolTip": "CervezaMin_API\\Controllers\\MarcaController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAywGcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:14:34.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\CervezaMin\\CervezaMin_API\\Program.cs",
+              "RelativeDocumentMoniker": "CervezaMin_API\\Program.cs",
+              "ToolTip": "D:\\source\\CervezaMin\\CervezaMin_API\\Program.cs",
+              "RelativeToolTip": "CervezaMin_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:03:21.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarcaCreateDto.cs",
+              "DocumentMoniker": "D:\\source\\CervezaMin\\CervezaMin_API\\Models\\Dtos\\MarcaCreateDto.cs",
+              "RelativeDocumentMoniker": "CervezaMin_API\\Models\\Dtos\\MarcaCreateDto.cs",
+              "ToolTip": "D:\\source\\CervezaMin\\CervezaMin_API\\Models\\Dtos\\MarcaCreateDto.cs",
+              "RelativeToolTip": "CervezaMin_API\\Models\\Dtos\\MarcaCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:06:21.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

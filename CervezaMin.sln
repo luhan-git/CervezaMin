@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CervezaMin_API", "CervezaMin_API\CervezaMin_API.csproj", "{4639104F-A770-4965-BE0A-F77BF54329D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4639104F-A770-4965-BE0A-F77BF54329D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4639104F-A770-4965-BE0A-F77BF54329D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4639104F-A770-4965-BE0A-F77BF54329D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4639104F-A770-4965-BE0A-F77BF54329D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A2D5234-E187-4310-A464-B7E697220564}
+	EndGlobalSection
+EndGlobal
