@@ -14,6 +14,7 @@ namespace CervezaMin_API.Dependencias
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(typeof(AutoMapperProfile));
             services.AddScoped<IMarcaRepository, MarcaRepository>();
+            services.AddScoped<ICervezaRepository,CervezaRepository>();
         }
     }
 }

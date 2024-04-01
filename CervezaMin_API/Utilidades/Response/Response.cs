@@ -2,13 +2,12 @@
 
 namespace CervezaMin_API.Utilidades.Response
 {
-    public class GenericResponse<TObject>
+    public class Response
     {
         public HttpStatusCode StatusCode { set; get; }
         public bool IsExitoso { set; get; } = true;
         public List<string>? ErrorMensajes { set; get; }
-        public TObject? Resultado { set; get; }
-        public List<TObject>? Resultados { get; set; }
+        public Object? Resultado { set; get; }
 
     }
 }

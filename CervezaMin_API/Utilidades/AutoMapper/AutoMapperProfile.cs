@@ -11,6 +11,10 @@ namespace CervezaMin_API.Utilidades.AutoMapper
             CreateMap<Marca, MarcaDto>().ReverseMap();
             CreateMap<Marca,MarcaCreateDto>().ReverseMap();
             CreateMap<Marca ,MarcaUpdateDto>().ReverseMap();
+            
+            CreateMap<Cerveza,CervezaDto>().ReverseMap();
+            CreateMap<Cerveza,CervezaCreateDto>().ReverseMap();
+            CreateMap<Cerveza,CervezaUpdateDto>().ReverseMap();
         }
     }
 }
