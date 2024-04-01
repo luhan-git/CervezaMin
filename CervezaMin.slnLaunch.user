@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Name": "CervezaMin_API\\CervezaMin_API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "CervezaMin_WEB\\CervezaMin_WEB.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
