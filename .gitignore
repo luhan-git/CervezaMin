@@ -1,4 +1,7 @@
+#CervezaMin_API
 vs/
 .vs/
 bin/
 obj/
+#CervezaMin_WEB
+node_modules/
