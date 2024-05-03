@@ -1,6 +1,7 @@
 #CervezaMin_API
 vs/
 .vs/
+*.sln
 bin/
 obj/
 #CervezaMin_WEB
