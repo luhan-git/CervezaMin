@@ -109,7 +109,7 @@ namespace CervezaMin_API.Controllers
                 await _cervezaRepo.Crear(modelo);
                 _response.Resultado = _mapper.Map<CervezaDto>(modelo);
                 _response.StatusCode = HttpStatusCode.Created;
-                return CreatedAtRoute("GetMarca", new { id = modelo.IdCerveza }, _response);
+                return CreatedAtRoute("GetCerveza", new { id = modelo.IdCerveza }, _response);
             }
             catch (Exception ex)
             {

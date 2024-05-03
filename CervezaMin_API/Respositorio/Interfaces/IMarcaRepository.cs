@@ -2,7 +2,7 @@
 
 namespace CervezaMin_API.Respositorio.Interfaces
 {
-    public interface IMarcaRepository : IGenericRepository<Marca>
+    public interface IMarcaRepository : ICervezaRepositorySP<Marca>
     {
         Task<Marca> Editar(Marca marca);
 
