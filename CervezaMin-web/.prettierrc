@@ -1,0 +1,10 @@
+{
+  'usetabs': true,
+  'semi': false,
+  'singleQuote': true,
+  'jsxSingleQuote': true,
+  'arrowParens': 'avoid',
+  'trailingComma': 'none',
+  'bracketSpacing': true,
+  'spaceBeforeFunctionParen': true
+}
