@@ -2,8 +2,8 @@
 
 namespace CervezaMin_API.Respositorio.Interfaces
 {
-    public interface ICervezaRepositorySP
+    public interface ICervezaRepositorySP:IGenericRepository<Cerveza>
     {
-        Task Crear(Cerveza cerveza);
+        Task Crearsp(Cerveza cerveza);
     }
 }

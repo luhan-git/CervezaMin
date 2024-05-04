@@ -6,14 +6,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CervezaMin_API.Respositorio.Implementaciones
 {
-    public class CervezaRepositorySP : ICervezaRepositorySP
+    public class CervezaRepositorySP :GenericRepository<Cerveza>, ICervezaRepositorySP
     {
         private readonly CervezaContext _context;
-        public CervezaRepositorySP(CervezaContext context)
+        public CervezaRepositorySP(CervezaContext context):base(context)
         {
             _context = context;
         }
-        public async Task Crear(Cerveza cerveza)
+        public async Task Crearsp(Cerveza cerveza)
         {
             string sql = "EXEC spCrearCerveza @idMarca, @Nombre, @NombreImagen,@UrlImagen,@Precio,@stok";
             await _context.Database.ExecuteSqlRawAsync(sql,

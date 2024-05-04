@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 
 namespace CervezaMin_API.Respositorio.Implementaciones
 {
-    public class GenericRepository<TEntity> : ICervezaRepositorySP<TEntity> where TEntity : class
+    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
         private readonly CervezaContext _context;
         internal DbSet<TEntity> dbSet;

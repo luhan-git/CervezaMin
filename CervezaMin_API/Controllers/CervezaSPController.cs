@@ -12,17 +12,15 @@ namespace CervezaMin_API.Controllers
     [ApiController]
     public class CervezaSPController : ControllerBase
     {
-        private readonly ICervezaRepository _cervezaRepo;
-        private readonly ICervezaRepositorySP _cervezaReposp;
+        private readonly ICervezaRepositorySP _cervezaRepo;
         private readonly IMarcaRepository _marcaRepo;
         private readonly ILogger<CervezaController> _logger;
         private readonly IMapper _mapper;
         protected Response _response;
-        public CervezaSPController(ILogger<CervezaController> logger, ICervezaRepository cervezaRepo, IMarcaRepository marcaRepo, IMapper mapper, ICervezaRepositorySP cervezaReposp)
+        public CervezaSPController(ILogger<CervezaController> logger, ICervezaRepositorySP cervezaRepo, IMarcaRepository marcaRepo, IMapper mapper)
         {
             _logger = logger;
             _cervezaRepo = cervezaRepo;
-            _cervezaReposp = cervezaReposp;
             _marcaRepo = marcaRepo;
             _mapper = mapper;
             _response = new();
@@ -84,7 +82,7 @@ namespace CervezaMin_API.Controllers
                 Cerveza modelo = _mapper.Map<Cerveza>(createDto);
                 modelo.FechaCreacion = DateTime.Now;
                 modelo.FechaActualizacion = DateTime.Now;
-                await _cervezaReposp.Crear(modelo);
+                await _cervezaRepo.Crearsp(modelo);
                 _response.Resultado = _mapper.Map<CervezaDto>(modelo);
                 _response.StatusCode = HttpStatusCode.Created;
                 return CreatedAtRoute("GetCervezasp", new { id = modelo.IdCerveza }, _response);

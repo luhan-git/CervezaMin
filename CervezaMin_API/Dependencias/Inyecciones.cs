@@ -11,7 +11,7 @@ namespace CervezaMin_API.Dependencias
         public static void Inyeccion(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<CervezaContext>(option => option.UseSqlServer(configuration.GetConnectionString("Context")));
-            services.AddTransient(typeof(ICervezaRepositorySP<>), typeof(GenericRepository<>));
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(typeof(AutoMapperProfile));
             services.AddScoped<IMarcaRepository, MarcaRepository>();
             services.AddScoped<ICervezaRepository,CervezaRepository>();
